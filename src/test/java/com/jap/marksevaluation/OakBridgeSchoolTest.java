@@ -1,6 +1,6 @@
 package com.jap.marksevaluation;
 
-import com.jap.marksevaluation.OakBridgeSchool;
+import com.jap.marksevaluation.oakBridgeSchool;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,10 +16,10 @@ public class OakBridgeSchoolTest
     int noOfSubjects;
     String[] studentNames;
     int [] rollNos;
-    OakBridgeSchool oakBridgeSchool;
+    oakBridgeSchool oakBridgeSchool;
     @Before
     public void setUp(){
-        oakBridgeSchool = new OakBridgeSchool();
+        oakBridgeSchool = new oakBridgeSchool();
         math  = new int[]{88, 89, 100, 70, 60, 80, 35, 3, 25, 56};
         science = new int[]{80, 83, 99, 67, 56, 84, 38, 9, 32, 65};
         english = new int[]{90, 98, 100, 65, 54, 82, 40, 13, 45, 67};
